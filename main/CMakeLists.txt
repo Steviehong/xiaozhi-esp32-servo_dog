@@ -97,6 +97,9 @@ elseif(CONFIG_LANGUAGE_EN_US)
     set(LANG_DIR "en-US")
 elseif(CONFIG_LANGUAGE_JA_JP)
     set(LANG_DIR "ja-JP")
+elsif(CONFIG_BOARD_TYPE_DEVKIT_ESP32S3_ST7789)
+    set(BOARD_TYPE "devkit-esp32s3-st7789")
+    set(BOARD_NAME "ESP32-S3-DevKitC-1 ST7789")
 endif()
 
 # 定义生成路径
