@@ -164,6 +164,8 @@ choice BOARD_TYPE
         bool "征辰科技1.54(ML307)"
     config BOARD_TYPE_ESP32_S3_1_54_MUMA
         bool "Spotpear ESP32-S3-1.54-MUMA"
+    config devkit_esp32s3_st7789
+        bool "ESP32-S3 DevKitC-1 + 1.3\" ST7789 彩屏套件"
 endchoice
 
 choice ESP_S3_LCD_EV_Board_Version_TYPE
